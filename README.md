@@ -9,8 +9,9 @@ If you write manuscripts usind [LaTex](http://www.latex-project.org/), then you 
 Details
 =====
 
-1.  If using an editor like emacs, you may have file names like foo.tex~ in your folder.  Get rid of these.  I have seen arXiv process these instead of the main .tex file!!!.  To remove:
+If using an editor like emacs, you may have file names like foo.tex~ in your folder.  Get rid of these.  I have seen arXiv process these instead of the main .tex file!!!.  To remove:
 ```{sh}
 find . -name "*~" | xargs rm -f
 ```
-2.  It is best to stage a "clean" set of files to upload.  The easiest way to do this is to use a version control system like [github](github.com).  Simply clone your repo, zip it up, and upload it.
+
+It is best to stage a "clean" set of files to upload.  The easiest way to do this is to use a version control system like [github](github.com).  Simply clone your repo, zip it up, and upload it.
